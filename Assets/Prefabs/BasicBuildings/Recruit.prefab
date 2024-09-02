@@ -69,7 +69,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 56f65d5bd7362494587420fa735249d6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -178,7 +178,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90cef999866684140b9393576715eb69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayingSide: 0
+  mySide: 0
+  MyPlayer: {fileID: 0}
 --- !u!114 &1708725683270107663
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -192,6 +193,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MaxHealth: 0
+  CurrentHealth: 0
 --- !u!114 &7681867511024523294
 MonoBehaviour:
   m_ObjectHideFlags: 0
