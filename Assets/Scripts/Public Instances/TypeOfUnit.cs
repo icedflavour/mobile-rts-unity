@@ -2,6 +2,6 @@ public enum TypeOfUnit
 {
     Worker,
     Tank,
-    Range,
+    Damager,
     Special
 }

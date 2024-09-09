@@ -34,7 +34,6 @@ public class Side : MonoBehaviour
             if (playerEntity.mySide == mySide)
             {
                 MyPlayer = playerEntity.gameObject;
-                Debug.Log("I have found player" + MyPlayer);
                 break;
             }
         }
